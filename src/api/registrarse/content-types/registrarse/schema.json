@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrarses",
+  "info": {
+    "singularName": "registrarse",
+    "pluralName": "registrarses",
+    "displayName": "Registro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Password": {
+      "type": "password"
+    }
+  }
+}
